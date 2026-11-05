@@ -85,5 +85,3 @@ I implemented prompt-based adaptation using a custom system prompt. LoRA/QLoRA f
 - No measured average latency improvement.
 - Further fine-tuning and larger-scale evaluation can improve the system.
 
-## 11. Submitted By
-Hamrinssssss
