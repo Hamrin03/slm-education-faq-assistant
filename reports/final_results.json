@@ -1,0 +1,33 @@
+{
+    "model": "qwen2.5:0.5b",
+    "total_test_cases": 3,
+    "valid_responses": 3,
+    "average_latency_seconds": 9.15,
+    "average_keyword_coverage_percent": 81.21,
+    "evaluation_results": [
+        {
+            "question": "What is a dataset?",
+            "expected_answer": "A dataset is a structured collection of data used for analysis, training, and testing machine learning models.",
+            "model_answer": "A dataset is a collection of related data that is used for various purposes such as training models, testing the accuracy of models, or generating new data. Each dataset typically contains multiple data points or examples that are relevant to a specific task or application. For instance, a dataset for a classification problem might contain images of people, where each image represents a different person or instance in the dataset.\n\nDatasets are a fundamental aspect of data science and machine learning, as they provide the basis for training models and interpreting their results. Examples of datasets include the MNIST dataset for handwritten digit recognition, the CIFAR-10 dataset for image classification, and the Iris dataset for classification of three different types of iris flowers.\n\nIn summary, a dataset is a collection of related data that is used to train models, test their accuracy, or generate new data.\n\nYou are now ready to test your knowledge about Python, Artificial Intelligence, Machine Learning, Deep Learning, Small Language Models, and related technical topics.",
+            "latency_seconds": 11.69,
+            "valid_response": true,
+            "keyword_coverage_percent": 80.0
+        },
+        {
+            "question": "What is Python?",
+            "expected_answer": "Python is a high-level programming language used for web development, automation, data science, and artificial intelligence.",
+            "model_answer": "Python is a high-level programming language that is widely used in the field of automation. It is designed to be easy to read, write, and understand, making it a popular choice for beginners and experienced programmers alike. Python is used in a variety of applications, including data science, web development, and scientific computing. It is also used in game development and data analysis. Python has a wide range of libraries and frameworks that make it easy to build complex applications quickly. It is a language that emphasizes code readability and is commonly used in data science and machine learning.",
+            "latency_seconds": 5.53,
+            "valid_response": true,
+            "keyword_coverage_percent": 81.82
+        },
+        {
+            "question": "What is Deep Learning?",
+            "expected_answer": "Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns.",
+            "model_answer": "Deep Learning is a subset of machine learning that deals with algorithms that can perform tasks such as image and speech recognition, natural language processing, and playing games like Go, chess, and poker. It involves building complex neural networks that can automatically learn from large amounts of data without being explicitly programmed to do so. Deep Learning uses many layers of neural networks to perform the tasks. It's a subset of deep neural networks (DNNs) which is a group of deep neural networks that all share a similar architecture. This architecture is a deep neural network that has a few layers (the \"bottom\" layer, \"middle\" layer, and \"top\" layer), and each layer has many nodes. The middle layer is a linear layer that takes in the data and maps it to the output. In the top layer, the data is processed through more complex layers, which are composed of several hidden layers, that each have many neurons, and the output of the last hidden layer is the output of the network. Deep Learning is a major area in machine learning and is used to solve a wide variety of tasks, including image and speech recognition, natural language processing, playing games, image segmentation, and medical imaging.",
+            "latency_seconds": 10.24,
+            "valid_response": true,
+            "keyword_coverage_percent": 81.82
+        }
+    ]
+}
