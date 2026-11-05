@@ -1,0 +1,29 @@
+{
+    "model": "qwen2.5:0.5b",
+    "test_cases": 3,
+    "average_baseline_latency": 7.67,
+    "average_optimized_latency": 7.67,
+    "results": [
+        {
+            "question": "What is a dataset?",
+            "baseline_answer": "A dataset is a collection of data that is used to train models and perform analysis. It can include any type of information, such as text, images, audio, or video, that can be used to make predictions or perform certain tasks. Datasets are often used in machine learning and artificial intelligence applications, such as classification, regression, and natural language processing tasks.",
+            "baseline_latency": 7.21,
+            "optimized_answer": "A dataset is a collection of data that is used to train a machine learning model or perform a specific task. It typically consists of multiple records, each containing one or more pieces of information. The goal is to provide a set of data points that can be used to make predictions or analyze patterns within the data. For example, a dataset might contain information about different types of fruits, such as their names, quantities, and prices.",
+            "optimized_latency": 7.32
+        },
+        {
+            "question": "What is Python?",
+            "baseline_answer": "Python is a high-level, interpreted programming language created by Guido van Rossum. It was developed in 1989. Python is often used as a scripting language, web development language, and data analysis tool. It's also a popular choice for scientific computing, machine learning, and artificial intelligence due to its simplicity and readability. It supports Python 3.5 and above.",
+            "baseline_latency": 7.2,
+            "optimized_answer": "Python is a high-level, interpreted, and object-oriented programming language created by Guido van Rossum and first released in 1991. It is known for its simplicity, readability, and versatility, making it a popular choice for beginners and experienced programmers alike. Python is widely used in various fields such as web development, data analysis, artificial intelligence, and scientific computing. It is also used in applications like games, web applications, and scientific simulations. Python is known for its ability to handle",
+            "optimized_latency": 7.53
+        },
+        {
+            "question": "What is Deep Learning?",
+            "baseline_answer": "Deep Learning is a type of machine learning that is based on artificial neural networks with a very deep, complex architecture. It involves training a model to recognize patterns and make predictions. Deep Learning has become an essential tool for a wide range of applications, including image and speech recognition, natural language processing, and computer vision. Some of the most famous deep learning models include Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Autoencoders. In the 2010s, deep learning has shown remarkable success in various fields, such as image and speech recognition, computer vision, and speech recognition.",
+            "baseline_latency": 8.6,
+            "optimized_answer": "Deep Learning is a subset of machine learning that involves training artificial neural networks to perform tasks that are traditionally done by humans. It is a subset of artificial intelligence that focuses on the development of algorithms that can learn from and make predictions on data. Deep Learning is based on the idea of using multiple layers of artificial neurons to process and analyze data. It is used in a variety of applications, including image and speech recognition, natural language processing, and computer vision. Deep Learning is a rapidly growing field with many",
+            "optimized_latency": 8.17
+        }
+    ]
+}

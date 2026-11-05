@@ -1,0 +1,58 @@
+[
+    {
+        "question": "What is an instruction-tuned model?",
+        "answer": "An instruction-tuned model is a model further trained to follow user instructions and respond helpfully."
+    },
+    {
+        "question": "What is an LLM?",
+        "answer": "A Large Language Model is an AI model trained on large amounts of text to understand and generate human-like language."
+    },
+    {
+        "question": "What is training data?",
+        "answer": "Training data is the portion of a dataset used to teach a machine learning model."
+    },
+    {
+        "question": "What is an SLM?",
+        "answer": "A Small Language Model is a compact AI language model designed to perform specific language tasks with fewer computing resources."
+    },
+    {
+        "question": "What is fine-tuning?",
+        "answer": "Fine-tuning is the process of further training a pre-trained model on a specific dataset to improve its performance for a particular task."
+    },
+    {
+        "question": "What is quantization?",
+        "answer": "Quantization reduces the numerical precision of model weights to lower memory usage and improve inference efficiency."
+    },
+    {
+        "question": "What is validation data?",
+        "answer": "Validation data is used during model development to monitor performance and help select model settings."
+    },
+    {
+        "question": "Why use a Small Language Model?",
+        "answer": "Small Language Models can require less memory and computing power, making them useful for focused tasks and local applications."
+    },
+    {
+        "question": "What is FastAPI?",
+        "answer": "FastAPI is a Python framework used to build fast and modern web APIs."
+    },
+    {
+        "question": "What is model evaluation?",
+        "answer": "Model evaluation measures how well a machine learning model performs using test data and suitable metrics."
+    },
+    {
+        "question": "What is Hugging Face?",
+        "answer": "Hugging Face is a platform that provides tools, datasets, and pre-trained models for machine learning and natural language processing."
+    },
+    {
+        "question": "What is an API?",
+        "answer": "An API is a software interface that allows two applications to communicate with each other."
+    },
+    {
+        "question": "What is Artificial Intelligence?",
+        "answer": "Artificial Intelligence is a field of computer science that enables machines to perform tasks that normally require human intelligence."
+    },
+    {
+        "question": "What is NLP?",
+        "answer": "Natural Language Processing is a field of AI that helps computers understand, process, and generate human language."
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is Machine Learning?",
+        "answer": "Machine Learning is a branch of AI that allows computers to learn patterns from data and make predictions."
+    },
+    {
+        "question": "What is test data?",
+        "answer": "Test data is a separate dataset used to evaluate the final performance of a trained model."
+    },
+    {
+        "question": "What is a neural network?",
+        "answer": "A neural network is a computing model inspired by the human brain that learns patterns using interconnected nodes."
+    }
+]

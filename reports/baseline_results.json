@@ -1,0 +1,29 @@
+{
+    "model": "qwen2.5:0.5b",
+    "total_test_cases": 3,
+    "valid_responses": 3,
+    "average_latency_seconds": 11.93,
+    "results": [
+        {
+            "question": "What is a dataset?",
+            "expected_answer": "A dataset is a structured collection of data used for analysis, training, and testing machine learning models.",
+            "model_answer": "A dataset is a collection of related data organized together. It is a type of data that is stored and managed using a specific database system or software. Datasets can be used in many different contexts, such as:\n\n1. **Research and Development**: Scientists, engineers, and developers collect and analyze large amounts of data to understand patterns, trends, and patterns in a particular field.\n\n2. **Marketing and Sales**: Companies use datasets to track customer behavior, purchase history, and preferences, which helps them make informed decisions about advertising and sales strategies.\n\n3. **Education**: Educational institutions gather data on student performance, test scores, and other relevant information to help students learn more effectively and improve their academic performance.\n\n4. **Healthcare**: Hospitals collect patient data, including medical records, genetic information, and health outcomes, to analyze medical research and develop treatments.\n\n5. **Finance**: Financial institutions use datasets to monitor market trends, analyze financial data, and inform decisions about investments and risk management.\n\n6. **Sports**: Teams use datasets to track player performance, analyze match outcomes, and develop training programs.\n\n7. **Agriculture**: Farmers use datasets to monitor soil health, crop yields, weather patterns, and other agricultural metrics to optimize farming practices.\n\n8. **Business Analytics**: Organizations use datasets to analyze customer behavior, sales performance, and other metrics to improve decision-making and optimize operations.\n\n9. **Cognitive Science**: Researchers use datasets to study language processing, machine learning, and the behavior of individuals.\n\n10. **Social Sciences**: Societies use datasets to analyze social trends, attitudes, and behaviors, and use them to inform policy-making and social innovations.\n\nIn summary, a dataset is a collection of related data organized together, which can be used to analyze, report, and visualize information in various contexts. They are crucial for many fields of research and development.",
+            "latency_seconds": 17.46,
+            "valid_response": true
+        },
+        {
+            "question": "What is Python?",
+            "expected_answer": "Python is a high-level programming language used for web development, automation, data science, and artificial intelligence.",
+            "model_answer": "Python is a high-level, general-purpose programming language. It was created by Guido van Rossum and released in 1991. Python is known for its simplicity, readability, and efficiency, making it a popular language for both beginners and experienced programmers.\nPython is used for a wide range of applications, including web development, data analysis, artificial intelligence, and scientific computing. It has a large community of users and developers, with numerous libraries and frameworks available to help developers build applications quickly and efficiently.\nPython is a case-sensitive language, which means that it treats words and characters as distinct units. This is in contrast to some other programming languages, such as Java, which treats words and characters as a single unit. This allows Python to be used in various environments, such as command-line interfaces, scripts, and web applications.\nPython is often used as a language for developing web applications, as it has a number of libraries and frameworks available that make it easy to build websites and applications. It is also used for scripting and automation tasks, such as testing and debugging.",
+            "latency_seconds": 8.6,
+            "valid_response": true
+        },
+        {
+            "question": "What is Deep Learning?",
+            "expected_answer": "Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns.",
+            "model_answer": "Deep Learning is a subset of machine learning that involves training models using neural networks with multiple layers. A neural network is a system of interconnected nodes, which can be thought of as neurons. A neural network can have multiple layers, each layer can have a different number of neurons, and each neuron can be connected to other neurons through synapses. The goal of Deep Learning is to train models that can learn and make predictions without being explicitly programmed in advance.\nSome key features of Deep Learning include:\n\n  * The use of neural networks instead of simple linear models.\n  * The use of multiple layers in the network.\n  * The use of backpropagation for training the network.\n  * The use of stochastic gradient descent as the optimization algorithm.\n  * The use of large datasets to train the network.\n  * The use of transfer learning for pre-training models that have been trained on other tasks.\n\nDeep Learning has revolutionized many fields, including image and speech recognition, natural language processing, and many other areas of computer science and engineering. It is used in a wide range of applications, from self-driving cars to image and speech recognition, and has the potential to improve many of the tasks that are currently handled by human beings.",
+            "latency_seconds": 9.73,
+            "valid_response": true
+        }
+    ]
+}

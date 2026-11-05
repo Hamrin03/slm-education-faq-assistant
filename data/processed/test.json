@@ -1,0 +1,14 @@
+[
+    {
+        "question": "What is a dataset?",
+        "answer": "A dataset is a structured collection of data used for analysis, training, and testing machine learning models."
+    },
+    {
+        "question": "What is Python?",
+        "answer": "Python is a high-level programming language used for web development, automation, data science, and artificial intelligence."
+    },
+    {
+        "question": "What is Deep Learning?",
+        "answer": "Deep Learning is a subset of machine learning that uses neural networks with multiple layers to learn complex patterns."
+    }
+]
